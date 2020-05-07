@@ -1,5 +1,6 @@
 function calculateTotalMortgage(percent, contribution, amount, date) {
     "use strict";  
+
     if (isNaN(Number(percent))) {
         return 'Ошибка. Укаите "Процентную ставку" по ипотеке.';
     }
@@ -39,6 +40,5 @@ function calculateTotalMortgage(percent, contribution, amount, date) {
 }
 
 function getGreeting(name) {
-    // код для задачи №2 писать здесь
-    // return greeting;
+    return `Привет, мир! Меня зовут ${name ? name : 'Аноним'}`;
 }
