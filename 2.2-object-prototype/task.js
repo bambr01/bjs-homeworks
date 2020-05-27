@@ -10,7 +10,7 @@ function getAnimalSound(animal) {
 
 function getAverageMark(marks) {
     // код для задачи №2 писать здесь
-    if(marks == '' || marks == 0 || marks.empty) {
+    if(marks == '' || marks == 0 || !marks.length) {
         return 0;
     }
     let avarage = 0, roundedAverage;
